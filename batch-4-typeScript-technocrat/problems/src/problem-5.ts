@@ -5,17 +5,6 @@ function getProperty< T,K extends keyof T >(object : T , key : K) : T[K]{
     return object[key];
 }
 
-// type Book = {
-//     name : string;
-//     author : string;
-//     category : string;
-// };
-
-// const myBook : Book = {
-//     name : "Web Development",
-//     author : "Cris James",
-//     category : "Programming"
-// };
 
 // const person = { name: "Alice", age: 30 };
 
